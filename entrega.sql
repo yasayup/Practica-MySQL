@@ -72,8 +72,8 @@ VALUES
     1,
     "Ley de glaciares",
     "Se aprobará la ley de glaciares",
-    "15/05/2020",
-    "15/05/2021",
+    "2020/05/15",
+    "2021/05/15",
     1,
     3
   ),
@@ -81,8 +81,8 @@ VALUES
   default,
   "Ley de bosques",
   "Se aprobará la ley de bosques",
-  "16/05/2020",
-  "16/05/2021",
+  "2020/05/16",
+  "2021/05/16",
   1,
   1
 ),
@@ -90,8 +90,8 @@ VALUES
   default,
   "Ganador del Fortnite Argentina",
   "Argentino de 10 años gana la competencia mas famosa del mundo",
-  "17/05/2020",
-  "17/05/2021",
+  "2020/05/17",
+  "2021/05/17",
   1,
   2
 ),
@@ -99,8 +99,8 @@ VALUES
   default,
   "Ley de humedales",
   "Se aprobará la ley de humedales",
-  "18/05/2020",
-  "18/05/2021",
+  "2020/05/18",
+  "2020/05/18",
   1,
   5
 ),
@@ -108,8 +108,8 @@ VALUES
   default,
   "50% de descuento en viajes",
   "Se aprobará el bono para viajar en Argentina durante el verano",
-  "19/05/2020",
-  "19/05/2021",
+  "2020/05/09",
+  "2021/05/09",
   1,
   4
 ),
@@ -117,8 +117,8 @@ VALUES
   default,
   "Cocina vegana",
   "Saber comer es la clave para nuestra salud",
-  "21/05/2020",
-  "21/05/2021",
+  "2020/05/12",
+  "2021/05/12",
   1,
   10
 ),
@@ -126,8 +126,8 @@ VALUES
   default,
   "Plantas sagradas medicinales",
   "Sabiduría psicodelica y su poder de transformación personal",
-  "22/05/2020",
-  "22/05/2021",
+  "2020/05/13",
+  "2021/05/13",
   1,
   9
 ),
@@ -135,8 +135,8 @@ VALUES
   default,
   "Organic Electronic",
   "La musica electronica organica llega a Córdoba con Mose Dj",
-  "23/05/2020",
-  "23/05/2021",
+  "2020/05/11",
+  "2021/05/11",
   1,
   8
 ),
@@ -144,8 +144,8 @@ VALUES
   default,
   "Tinturas madres",
   "Tinturas a base de plantas que ayudan al sistema inmunologico",
-  "1/05/2020",
-  "1/05/2021",
+  "2020/04/15",
+  "2021/04/15",
   1,
   7
 ),
@@ -153,8 +153,8 @@ VALUES
   default,
   "Salvemos al planeta",
   "Gobiernos deben fomentar leyes para combatir al cambio climatico mundial",
-  "2/05/2020",
-  "2/05/2021",
+  "2020/05/10",
+  "2021/05/10",
   1,
   6
 );
@@ -181,4 +181,13 @@ VALUES
   *
 FROM
   categories;
-  
+
+SELECT
+  *
+FROM
+  users;
+
+  SELECT
+  *
+FROM
+  notes;
